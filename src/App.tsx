@@ -5,6 +5,7 @@ import { Header } from "./components/header";
 import { Navigate } from "./components/navigate";
 import { Background } from "./components/background";
 import { Category } from "./components/category";
+import { List } from "./components/list";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navigate />
       <Background />
       <Category />
+      <List />
     </div>
   );
 }

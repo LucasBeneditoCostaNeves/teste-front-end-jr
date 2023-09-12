@@ -4,7 +4,7 @@ export const DivStyled = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   width: 90%;
-  margin: 15px auto 0px;
+  margin: 15px auto 35px;
 
   div {
     display: flex;

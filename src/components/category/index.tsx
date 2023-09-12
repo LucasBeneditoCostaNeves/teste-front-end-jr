@@ -1,4 +1,4 @@
-import { DivStyled } from "./style";
+import { DivStyled } from "./styled";
 import tecnologia from "../../assets/monitor.png";
 import tecnologiaPink from "../../assets/monitor-pink.png";
 import supermercado from "../../assets/supermercados.png";
