@@ -6,6 +6,9 @@ import { Navigate } from "./components/navigate";
 import { Background } from "./components/background";
 import { Category } from "./components/category";
 import { List } from "./components/list";
+import { CardSession } from "./components/cardSession";
+import { Session } from "./components/session";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
       <Background />
       <Category />
       <List />
+      <Session />
+      <Footer />
     </div>
   );
 }

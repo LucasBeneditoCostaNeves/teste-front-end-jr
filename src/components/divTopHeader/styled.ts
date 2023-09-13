@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const DivStyled = styled.div`
+export const DivStyledTopHeader = styled.div`
   display: flex;
   justify-content: space-around;
 

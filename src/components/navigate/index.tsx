@@ -1,9 +1,9 @@
-import { DivStyled } from "./styled";
+import { DivStyledNavigate } from "./styled";
 import coroa from "../../assets/crownSimple.png";
 
 export const Navigate = () => {
   return (
-    <DivStyled>
+    <DivStyledNavigate>
       <h4 className="h4-only">Todas Categorias</h4>
       <h4 className="h4-only">Supermercado</h4>
       <h4 className="h4-only">Livros</h4>
@@ -14,6 +14,6 @@ export const Navigate = () => {
         <img src={coroa} alt="coroa" />
         <h4>Assinatura</h4>
       </div>
-    </DivStyled>
+    </DivStyledNavigate>
   );
 };

@@ -1,10 +1,12 @@
 import { styled } from "styled-components";
 
-export const DivStyled = styled.div`
+export const DivStyledCategory = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   width: 90%;
+  height: 125px;
   margin: 15px auto 35px;
+  overflow-x: auto;
 
   div {
     display: flex;
@@ -16,6 +18,7 @@ export const DivStyled = styled.div`
     cursor: pointer;
     font-size: 12px;
     text-align: center;
+    height: 120px;
   }
 
   div:focus {

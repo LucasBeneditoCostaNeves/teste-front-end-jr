@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const DivStyled = styled.div`
+export const DivStyledNavigate = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   width: 97%;

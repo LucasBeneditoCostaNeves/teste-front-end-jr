@@ -1,9 +1,9 @@
 import { styled } from "styled-components";
 
-export const DivStyled = styled.div`
+export const DivStyledList = styled.div`
   height: max-content;
   overflow-y: none;
-  margin-bottom: 40px;
+  margin-bottom: 90px;
   h2 {
     color: var(--pink);
     font-size: 25px;
@@ -28,8 +28,8 @@ export const DivStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     width: 90%;
-    margin: 0 auto;
-    margin-top: 15px;
+    margin: 15px auto 20px;
+    overflow-x: auto;
   }
 
   button {

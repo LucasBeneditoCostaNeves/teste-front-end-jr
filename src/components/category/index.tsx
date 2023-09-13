@@ -1,4 +1,4 @@
-import { DivStyled } from "./styled";
+import { DivStyledCategory } from "./styled";
 import tecnologia from "../../assets/monitor.png";
 import tecnologiaPink from "../../assets/monitor-pink.png";
 import supermercado from "../../assets/supermercados.png";
@@ -38,7 +38,7 @@ export const Category = () => {
   }, []);
 
   return (
-    <DivStyled>
+    <DivStyledCategory>
       <div
         className="test"
         onClick={() => focus("tecnologia", tecnologiaPink)}
@@ -71,6 +71,6 @@ export const Category = () => {
         <img src={moda} alt="" className="moda" />
         <h5>Moda</h5>
       </div>
-    </DivStyled>
+    </DivStyledCategory>
   );
 };

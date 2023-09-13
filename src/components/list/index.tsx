@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { DivStyled } from "./styled";
+import { DivStyledList } from "./styled";
 import { Card } from "../card";
 import { api } from "../../service";
 
@@ -42,9 +42,17 @@ export const List = () => {
   };
 
   return (
-    <DivStyled>
+    <DivStyledList>
       <div className="line">
         <h2>Produtos relacionados</h2>
+      </div>
+      <div className="div-buttons">
+        <button>CELULAR</button>
+        <button>ACESSÓRIOS</button>
+        <button>TABLETS</button>
+        <button>NOTEBOOK</button>
+        <button>TVS</button>
+        <button>VER TODOS</button>
       </div>
       <div className="list">
         <button onClick={handlePrevPage} className="button-left">
@@ -59,6 +67,6 @@ export const List = () => {
           {">"}
         </button>
       </div>
-    </DivStyled>
+    </DivStyledList>
   );
 };

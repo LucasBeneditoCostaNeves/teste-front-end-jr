@@ -1,11 +1,11 @@
 import escudo from "../../assets/escudo.png";
 import truck from "../../assets/truck.png";
 import card from "../../assets/creditCard.png";
-import { DivStyled } from "./styled";
+import { DivStyledTopHeader } from "./styled";
 
 export const DivTopHeader = () => {
   return (
-    <DivStyled>
+    <DivStyledTopHeader>
       <div className="text-content">
         <img src={escudo} />
         <h6 className="h6-gray">Compra</h6>
@@ -21,6 +21,6 @@ export const DivTopHeader = () => {
         <h6 className="h6-pink">Parcele</h6>
         <h6 className="h6-gray">Suas compras</h6>
       </div>
-    </DivStyled>
+    </DivStyledTopHeader>
   );
 };

@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const DivStyled = styled.div`
+export const DivStyledBackground = styled.div`
   position: relative;
 
   color: var(--white);

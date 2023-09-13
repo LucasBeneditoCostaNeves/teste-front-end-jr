@@ -1,4 +1,4 @@
-import { DivStyled } from "./styled";
+import { DivStyledHeader } from "./styled";
 import logo from "../../assets/logo.png";
 import lupa from "../../assets/magnifyingGlass.png";
 import box from "../../assets/group.png";
@@ -8,7 +8,7 @@ import cart from "../../assets/shoppingCart.png";
 
 export const Header = () => {
   return (
-    <DivStyled>
+    <DivStyledHeader>
       <img src={logo} alt="logo" />
       <div className="div-input">
         <input type="text" placeholder="O que você está buscando?" />
@@ -20,6 +20,6 @@ export const Header = () => {
         <img src={user} alt="user" />
         <img src={cart} alt="cart" />
       </div>
-    </DivStyled>
+    </DivStyledHeader>
   );
 };
