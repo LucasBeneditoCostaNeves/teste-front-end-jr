@@ -11,7 +11,7 @@ Caso queiram mesmo assim rodar o código siga abaixo as instruções para a exec
 ## Instruções
 
 - Abrir bash ou terminal semelhante
-- Fazer o clone do projeto(git clone "Pegar SSH NO GIT HUB E COLAR AQUI")![Alt text](image-3.png)
+- Fazer o clone do projeto(git clone "Pegar SSH NO GIT HUB E COLAR AQUI")
 - Abra o projeto no VsCode ou outro edito de código(Cuidado para não abrir no local errado)
 - De o seguinte comando do terminal do código: yarn install
 - Depois só rodar a aplicação: yarn start
