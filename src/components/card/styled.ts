@@ -4,6 +4,8 @@ export const DivStyledCard = styled.div`
   padding: 10px 10px;
 
   width: 20%;
+  min-width: 150px;
+  max-width: 200px;
 
   margin-right: 15px;
 

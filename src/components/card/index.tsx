@@ -1,5 +1,6 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { DivStyledCard } from "./styled";
+import { Context } from "../../context/context";
 interface Root {
   descriptionShort: string;
   photo: string;
@@ -8,9 +9,8 @@ interface Root {
 }
 
 export const Card = (element: Root, fileira: number) => {
-  //   useEffect(() => {
-  //     element.price = element.price * 10;
-  //   }, []);
+  const { dataModal, setDataModal, setOpenModal } = useContext(Context);
+  console.log(dataModal);
   const numberString = element.price.toString();
   const lastNumber = numberString.slice(-2);
   const rest = numberString.slice(0, -2);
@@ -39,7 +39,14 @@ export const Card = (element: Root, fileira: number) => {
       <h1>R$ {promoNumberFloat}</h1>
       <h6>ou 2x de R${creditNumberFloat} sem juros</h6>
       <span>Frete grátis</span>
-      <button>Comprar</button>
+      <button
+        onClick={() => {
+          setOpenModal(true);
+          setDataModal(element);
+        }}
+      >
+        Comprar
+      </button>
     </DivStyledCard>
   );
 };

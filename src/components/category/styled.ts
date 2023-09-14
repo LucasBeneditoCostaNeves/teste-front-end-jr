@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const DivStyledCategory = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  width: 90%;
+  width: 94%;
   height: 125px;
   margin: 15px auto 35px;
   overflow-x: auto;

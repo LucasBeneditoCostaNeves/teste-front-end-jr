@@ -6,7 +6,7 @@ export const DivStyledSession = styled.div`
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     height: 279px;
   }
@@ -35,6 +35,7 @@ export const DivStyledSession = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 304px;
   }
 
   .logos img {
@@ -44,5 +45,12 @@ export const DivStyledSession = styled.div`
     max-width: calc(20% - 20px);
     box-sizing: border-box;
     flex-grow: 1;
+    min-width: 100px;
+  }
+
+  @media (min-width: 935px) {
+    .logos {
+      margin-top: 50px;
+    }
   }
 `;

@@ -5,12 +5,12 @@ export const DivStyledBackground = styled.div`
 
   color: var(--white);
 
-  font-size: 33px;
   font-weight: 500;
+  font-size: 20px;
 
   img {
     width: 100%;
-    min-height: 285px;
+    min-height: 190px;
   }
 
   div {
@@ -28,17 +28,37 @@ export const DivStyledBackground = styled.div`
   }
 
   button {
-    width: 195px;
-    height: 60px;
-
+    width: 136px;
+    height: 38px;
     border: none;
     border-radius: 5px;
-    margin-top: 36px;
-
+    margin-top: 10px;
     color: var(--white);
     background: var(--pink);
-
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
+  }
+
+  @media (min-width: 600px) {
+    font-size: 33px;
+
+    img {
+      min-height: 285px;
+    }
+
+    button {
+      width: 195px;
+      height: 60px;
+
+      border: none;
+      border-radius: 5px;
+      margin-top: 36px;
+
+      color: var(--white);
+      background: var(--pink);
+
+      font-size: 18px;
+      font-weight: 700;
+    }
   }
 `;

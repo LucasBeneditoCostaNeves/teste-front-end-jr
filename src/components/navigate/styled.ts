@@ -12,8 +12,12 @@ export const DivStyledNavigate = styled.div`
 
   width: 90%;
 
+  color: var(--grey-1);
+
   .h4-only {
     padding: 2px 0px;
+    display: flex;
+    align-items: center;
   }
 
   div {
@@ -22,6 +26,16 @@ export const DivStyledNavigate = styled.div`
 
     .h4-only {
       margin-left: 5px;
+    }
+  }
+
+  @media (max-width: 850px) {
+    overflow-y: auto;
+    font-size: 13px;
+    align-items: center;
+
+    h4 {
+      margin-right: 15px;
     }
   }
 `;

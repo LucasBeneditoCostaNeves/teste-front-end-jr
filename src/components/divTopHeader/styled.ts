@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const DivStyledTopHeader = styled.div`
-  display: flex;
+  display: none;
   justify-content: space-around;
 
   width: 90%;
@@ -17,7 +17,7 @@ export const DivStyledTopHeader = styled.div`
 
     height: max-content;
 
-    font-size: 12px;
+    font-size: 10px;
 
     img {
       width: 20px;
@@ -36,6 +36,13 @@ export const DivStyledTopHeader = styled.div`
       color: gray;
 
       margin-right: 5px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    display: flex;
+    .text-content {
+      font-size: 12px;
     }
   }
 `;

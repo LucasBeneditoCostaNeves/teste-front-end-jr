@@ -4,6 +4,7 @@ export const DivStyledHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   margin: 0 auto;
   padding: 10px 0px;
@@ -15,6 +16,7 @@ export const DivStyledHeader = styled.div`
 
   .div-input {
     width: 40%;
+    min-width: 241px;
     position: relative;
 
     input {

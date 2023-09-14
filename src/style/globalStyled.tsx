@@ -61,5 +61,9 @@ table {
 
 	--white: #FFFFFF
 }
+
+button{
+	cursor: pointer;
+}
 `;
 export default GlobalStyle;

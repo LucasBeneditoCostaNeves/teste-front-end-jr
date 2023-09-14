@@ -15,11 +15,12 @@ export const DivStyledFooter = styled.div`
   }
 
   .sobre {
-    width: max-content;
+    width: 192px;
 
     display: flex;
     flex-direction: column;
     margin-left: 60px;
+    margin: 0 auto 50px;
 
     span + span {
       margin-top: 15px;
@@ -42,7 +43,7 @@ export const DivStyledFooter = styled.div`
     width: max-content;
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin: 0 auto 50px;
 
     span + span {
       margin-top: 15px;
@@ -59,7 +60,7 @@ export const DivStyledFooter = styled.div`
   .pay {
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin: 0 auto;
 
     img {
       width: 200px;
@@ -67,7 +68,8 @@ export const DivStyledFooter = styled.div`
   }
 
   .form {
-    width: 300px;
+    width: 170px;
+    max-height: 220px;
     padding: 20px 40px;
 
     color: var(--grey-4);
@@ -96,7 +98,6 @@ export const DivStyledFooter = styled.div`
       display: flex;
       font-size: 13px;
       text-align: center;
-      width: 309px;
     }
 
     div {
@@ -104,6 +105,7 @@ export const DivStyledFooter = styled.div`
     }
 
     input {
+      width: 70%;
       padding: 10px 20px;
       border-radius: 4px;
       border: solid 1px var(--grey-4);
@@ -127,14 +129,66 @@ export const DivStyledFooter = styled.div`
     div {
       display: flex;
       justify-content: space-between;
+      flex-direction: column;
 
       width: 90%;
       margin: 0 auto;
     }
     span {
       display: flex;
-      width: 900px;
-      font-size: 12px;
+      width: 100%;
+      font-size: 10px;
+      text-align: center;
+    }
+
+    img {
+      width: 200px;
+      margin: 10px auto 0px;
+    }
+  }
+
+  .div-input {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (min-width: 600px) {
+    .form {
+      width: 309px;
+      max-height: 180px;
+    }
+
+    .sobre {
+      margin-left: 50px;
+    }
+
+    .info {
+      margin-left: 80px;
+    }
+  }
+
+  @media (min-width: 800px) {
+    .pay {
+      margin-left: 80px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .end {
+      div {
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 10px;
+      }
+      span {
+        width: 900px;
+        text-align: left;
+      }
+
+      img {
+        width: max-content;
+        margin: 0;
+      }
     }
   }
 `;

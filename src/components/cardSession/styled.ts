@@ -7,7 +7,7 @@ export const DivStyledCardSession = styled.div`
   }
 
   img {
-    width: 350px;
+    width: 300px;
     height: 230px;
     border-radius: 8px;
   }
@@ -38,5 +38,11 @@ export const DivStyledCardSession = styled.div`
     border-radius: 4px;
     color: var(--white);
     font-weight: 800;
+  }
+
+  @media (min-width: 600px) {
+    img {
+      width: 420px;
+    }
   }
 `;

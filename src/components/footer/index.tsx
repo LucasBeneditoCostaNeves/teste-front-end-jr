@@ -35,7 +35,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="form">
-          <h4 className="h4-1">CADASTTRE-SE E RECEBA NOSSAS</h4>
+          <h4 className="h4-1">CADASTRE-SE E RECEBA NOSSAS</h4>
           <h4 className="h4-2">NOVIDADES E PROMOÇÕES</h4>
           <span>
             Excepteur sint occaecat cudatat non ent, sunt in culpa qui officia

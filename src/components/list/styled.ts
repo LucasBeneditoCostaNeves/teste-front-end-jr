@@ -6,7 +6,7 @@ export const DivStyledList = styled.div`
   margin-bottom: 90px;
   h2 {
     color: var(--pink);
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -73,6 +73,7 @@ export const DivStyledList = styled.div`
     margin: 0 auto;
     height: max-content;
     justify-content: center;
+    flex-wrap: wrap;
 
     div {
       height: max-content;
@@ -93,6 +94,12 @@ export const DivStyledList = styled.div`
       100% {
         transform: translateX(-400%);
       }
+    }
+  }
+
+  @media (min-width: 600px) {
+    h2 {
+      font-size: 24px;
     }
   }
 `;

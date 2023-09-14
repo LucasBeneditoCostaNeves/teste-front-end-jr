@@ -1,15 +1,18 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import App from "./App";
+import { GenericoProvider } from "./context/context";
 
 const rootElement = document.getElementById("root");
 
 if (rootElement) {
-  const root = ReactDOM.createRoot(rootElement);
-  root.render(
+  ReactDOM.render(
     <React.StrictMode>
-      <App />
-    </React.StrictMode>
+      <GenericoProvider>
+        <App />
+      </GenericoProvider>
+    </React.StrictMode>,
+    rootElement
   );
 } else {
   console.error("Element with ID 'root' not found in the document.");
