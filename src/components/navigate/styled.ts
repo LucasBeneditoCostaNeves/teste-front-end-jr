@@ -18,6 +18,7 @@ export const DivStyledNavigate = styled.div`
     padding: 2px 0px;
     display: flex;
     align-items: center;
+    font-weight: 600;
   }
 
   div {
@@ -37,5 +38,9 @@ export const DivStyledNavigate = styled.div`
     h4 {
       margin-right: 15px;
     }
+  }
+
+  .pink {
+    color: var(--pink);
   }
 `;

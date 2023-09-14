@@ -1,31 +1,27 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End Jr
+# Olá! Tudo certo?
 
-### Vem ser #Econverse!
+### Trabalho finalizado com sucesso!
 
-Segue abaixo as instruções para a execução do teste.
+### Fiz o deploy do projeto para facilitar a vida de vocês aqui em baixo
+
+Link: (https://teste-front-end-9lzolaus6-lucasbeneditocostaneves.vercel.app)
+
+Caso queiram mesmo assim rodar o código siga abaixo as instruções para a execução do teste.
 
 ## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br, joao.victor@econverse.com.br e eduardo.rodrigues@econverse.com.br com o título **Teste Vaga FrontEnd Jr**
 
-## Especificações Técnicas
-- Desenvolver a pagina em React e TypeScript conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+- Abrir bash ou terminal semelhante
+- Fazer o clone do projeto(git clone "Pegar SSH NO GIT HUB E COLAR AQUI")![Alt text](image-3.png)
+- Abra o projeto no VsCode ou outro edito de código(Cuidado para não abrir no local errado)
+- De o seguinte comando do terminal do código: yarn install
+- Depois só rodar a aplicação: yarn start
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+## Linguagens Utilizadas:
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
+- React, Typescript, HTML5, CSS3 e Javascript
 
-**Boa sorte! ;)**
+## Bibliotecas Utilizadas:
+
+- Axios, Styled-Components, Toastfy
+
+**Tchauzinho! 😉**

@@ -21,7 +21,7 @@ export const DivStyledHeader = styled.div`
 
     input {
       width: 100%;
-      height: 40px;
+      height: 48px;
 
       padding: 4px 8px;
 

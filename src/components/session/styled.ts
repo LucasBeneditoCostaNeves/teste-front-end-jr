@@ -46,11 +46,20 @@ export const DivStyledSession = styled.div`
     box-sizing: border-box;
     flex-grow: 1;
     min-width: 100px;
+    padding: 33px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   @media (min-width: 935px) {
     .logos {
       margin-top: 50px;
+    }
+
+    .logos img {
+      padding: 60px 30px;
+      width: 50px;
+      min-width: 50px;
+      max-width: 150px;
     }
   }
 `;
